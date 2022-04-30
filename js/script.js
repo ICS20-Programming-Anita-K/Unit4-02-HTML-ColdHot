@@ -15,8 +15,8 @@ function displayMessage () {
 	if (temp < 15) {
 		document.getElementById('message').innerHTML = "It is cold outside!"
 	} 
-	// otherwise, if the is greater than or equal to 15 degrees, display "It is warm outside!"	
-	else (temp >= 15) {
+	// otherwise, if the temperature is greater than or equal to 15 degrees, display "It is warm outside!"	
+	else {
 		document.getElementById('message').innerHTML = "It is warm outside!"
 		}
   
