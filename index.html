@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hot and Cold">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Anita Kay">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hot and Cold</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Hot and Cold</h1>
+		<table>
+			<tr>
+				<td>
+					<h3>Enter a temperature here:</h3>
+					<form action="javascript:displayMessage()">						
+						<label for="temp">Temperature (°C):</label>
+						<input type="number" step="1" min="any" max="any" id="temp"><br><br>
+						<input type="submit" value="Enter Temperature">
+					</form>
+        </td>
+			</tr>
+		</table>
+		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">
+			<div id="message">
+			</div>
+		</div>
+    <br>
+    <!-- Image -->
+    <img src="./images/temp.png" alt="Temperature" width="50%">
+  </body>
+</html>
